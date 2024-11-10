@@ -1,0 +1,15 @@
+.app-header {
+  display: flex;
+}
+.app-header .logo {
+  width: 32px;
+  height: 32px;
+  margin-right: 16px;
+}
+.app-header h1 {
+  margin: 0;
+}
+footer {
+  display: none !important;
+}
+

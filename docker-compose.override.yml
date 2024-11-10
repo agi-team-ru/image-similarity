@@ -1,0 +1,10 @@
+services:
+  application:
+    build:
+      dockerfile: Dockerfile.dev
+    restart: "no"
+    volumes:
+      - ./application/src:/app/src
+      - ./application/assets:/app/assets
+    environment:
+      - "LOG_LEVEL=INFO"
